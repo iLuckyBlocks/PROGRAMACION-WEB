@@ -1,0 +1,11 @@
+[
+    {
+    "nombre":"Home",
+    "redirect": "/portal-estudiante"
+    },
+
+    {
+        "nombre":"Novedades",
+        "redirect": "/portal-estudiante/novedades"
+    }
+]

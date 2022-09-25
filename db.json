@@ -1,0 +1,127 @@
+{
+  "Alojamientos": [
+    {
+      "id": 1,
+      "direccion": "Surco Forestales",
+      "precio": "1000",
+      "descripcion": "Servicios incluidos-Baño propio"
+    },
+    {
+      "id": 2,
+      "direccion": "Surco Los Poetas",
+      "precio": "780",
+      "descripcion": "Servicios no incluidos-Baño propio"
+    },
+    {
+      "id": 3,
+      "direccion": "Av Nicolas Rodrigo",
+      "precio": "920",
+      "descripcion": "Servicios incluidos-Baño propio"
+    },
+    {
+      "id": 4,
+      "direccion": "Av Primavera",
+      "precio": "1200",
+      "descripcion": "Servicios incluidos-amoblado"
+    },
+    {
+      "id": 5,
+      "direccion": "Surco Escritores",
+      "precio": "700",
+      "descripcion": "Servicios incluidos-Baño propio"
+    },
+    {
+      "id": 6,
+      "direccion": "Ate Santa Clara",
+      "precio": "380",
+      "descripcion": "Servicios no incluidos-Baño compartido"
+    },
+    {
+      "id": "8",
+      "direccion": "Lirios San Isidro",
+      "precio": "1399",
+      "descripcion": "Todo incluido"
+    }
+  ],
+  "Estudiantes": [
+    {
+      "id": 2,
+      "name": "Daniel Arrieta",
+      "correo": "danielArr_12@gmail.com",
+      "phone": "991201289",
+      "UserName": "DanielArr#42"
+    },
+    {
+      "id": 3,
+      "name": "Matias Ascasibe",
+      "correo": "ascasibeMtAt@gmail.com",
+      "phone": "934563114",
+      "UserName": "MatiaAs#31"
+    },
+    {
+      "id": 4,
+      "name": "Fabricio Cornejo",
+      "correo": "cornejo24@gmail.com",
+      "phone": "934423114",
+      "UserName": "Fabricio#28"
+    },
+    {
+      "id": 5,
+      "name": "Diego Solorzano",
+      "correo": "diegoSWoo@gmail.com",
+      "phone": "967424552",
+      "UserName": "DiegoS#19"
+    },
+    {
+      "id": 6,
+      "name": "Jessica Santos",
+      "correo": "JessiSA@gmail.com",
+      "phone": "921245631",
+      "UserName": "JessSa#19"
+    },
+    {
+      "id": "12",
+      "name": "Estefany Olivera",
+      "correo": "estefy#12@gmail.com",
+      "phone": "996762093",
+      "UserName": "Estephy#12"
+    }
+  ],
+  "Arrendadores": [
+    {
+      "id": 11,
+      "name": "Nicolas Ovando Terry",
+      "correo": "nicolaOvand1@gmail.com",
+      "phone": "923444246",
+      "UserName": "ArrNicola#12"
+    },
+    {
+      "id": 13,
+      "name": "Duglas Blanco Bueno",
+      "correo": "BBDuglas012@gmail.com",
+      "phone": "986543276",
+      "UserName": "ArrDuglasB31"
+    },
+    {
+      "id": 15,
+      "name": "Manuel Lozada Diaz",
+      "correo": "IsManuelMazda@gmail.com",
+      "phone": "943524552",
+      "UserName": "ManuelLoz#19"
+    },
+    {
+      "id": 17,
+      "name": "Pedro Montalvo Inoñan",
+      "correo": "MontalvoInonan@gmail.com",
+      "phone": "921245782",
+      "UserName": "PedroM#12"
+    },
+    {
+      "id": "19",
+      "name": "Violeta Andía",
+      "correo": "violeand@gmail.com",
+      "phone": "987609732",
+      "UserName": "IsVioleta#12"
+    }
+  ]
+}

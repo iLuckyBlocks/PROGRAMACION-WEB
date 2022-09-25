@@ -1,0 +1,67 @@
+<div class="conteiner">
+    <mat-toolbar>
+        <span>Crea tu cuenta aqui</span>
+    </mat-toolbar>
+    <mat-spinner *ngIf="loading" class="spinner" diameter="50" ></mat-spinner>
+    <mat-card style="margin-top:10px; margin-left: 60px; margin-right: 60px;">
+
+        <h1 style="margin-left: 350px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">¡Registrate rápido y seguro!</h1>
+
+        <form [formGroup]="form" (ngSubmit)="addUsuario()">
+            <mat-grid-list cols="1" rowHeight="70px">
+                <mat-grid-tile [colspan]="1" [rowspan]="1">
+                    <mat-form-field class="ancho">
+                        <mat-label>ID</mat-label>
+                        <input matInput autocomplete="off" formControlName="id">
+                      </mat-form-field>
+                </mat-grid-tile>
+
+                <mat-grid-tile [colspan]="1" [rowspan]="1" >
+                    <mat-form-field  class="ancho">
+                        <mat-label>Nombres</mat-label>
+                        <input matInput autocomplete="off" formControlName="name">
+                      </mat-form-field>
+                </mat-grid-tile>
+
+                <mat-grid-tile [colspan]="1" [rowspan]="1" >
+                    <mat-form-field  class="ancho">
+                        <mat-label>Correo</mat-label>
+                        <input matInput autocomplete="off" formControlName="correo">
+                      </mat-form-field>
+                </mat-grid-tile>
+
+                <mat-grid-tile [colspan]="1" [rowspan]="1">
+                    <mat-form-field  class="ancho">
+                        <mat-label>Celular</mat-label>
+                        <input matInput autocomplete="off" formControlName="phone">
+                      </mat-form-field>
+                </mat-grid-tile>
+
+                <mat-grid-tile [colspan]="1" [rowspan]="1" >
+                    <mat-form-field  class="ancho">
+                        <mat-label>UserName</mat-label>
+                        <input matInput autocomplete="off" formControlName="UserName">
+                      </mat-form-field>
+                </mat-grid-tile>
+
+                <mat-grid-tile [colspan]="1" [rowspan]="1" >
+                    <mat-form-field  class="ancho">
+                        <mat-label> TipoUsuario</mat-label>
+                        <mat-select autocomplete="off" [(value)]="selected">
+                          <mat-option value="arrendador">Arrendador</mat-option>
+                          <mat-option value="estudiante">Estudiante</mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                </mat-grid-tile>
+
+                <mat-grid-tile [colspan]="1" [rowspan]="1">
+                    <button mat-raised-button style="margin-left:540px" routerLink="/login"> Atras </button>
+                    <button type="submit" [disabled]="form.invalid" mat-raised-button style="margin-left:60px" color="primary">Aceptar</button>    
+                </mat-grid-tile>
+            </mat-grid-list>
+
+        </form>
+    
+    </mat-card>
+
+</div>

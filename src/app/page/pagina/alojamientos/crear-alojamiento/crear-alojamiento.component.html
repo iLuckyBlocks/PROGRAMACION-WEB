@@ -1,0 +1,62 @@
+<div class="container">
+    <mat-toolbar>
+        <span> Crea tu alojamiento </span>
+    </mat-toolbar>
+
+    <mat-card style="margin-top: 10px ;">
+
+<form [formGroup]="form">
+
+    <mat-grid-list cols="4" rowHeight="70px">
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+
+            <mat-form-field class="weight">
+                <mat-label>ID</mat-label>
+                <input matInput formControlName="id" placeholder="Id"/>
+            </mat-form-field> 
+            
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="3" [rowspan]="5">
+            IMG de tu alojamiento
+       </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+
+            <mat-form-field class="weight">
+                <mat-label>Direccion</mat-label>
+                <input matInput formControlName="direccion" placeholder="Direccion"/>
+            </mat-form-field>
+
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+
+            <mat-form-field class="weight">
+                <mat-label>Precio</mat-label>
+                <input matInput formControlName="precio" placeholder="Precio"/>
+            </mat-form-field>
+
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+
+            <mat-form-field class="weight">
+                <mat-label>Descripcion</mat-label>
+                <input matInput  formControlName="descripcion" placeholder="Descripcion">
+            </mat-form-field>
+            
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="1" [rowspan]="1">
+            <button mat-raised-button color="warn" style="margin-right:20px ;">Atras</button>
+            <button type="submit" mat-raised-button color="primary" (click)="addAlojamiento()">{{actionBtn}}</button>
+        </mat-grid-tile>
+    </mat-grid-list>
+
+
+</form>
+          
+    </mat-card>
+
+</div>

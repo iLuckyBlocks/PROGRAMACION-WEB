@@ -1,0 +1,17 @@
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pointer{
+    cursor:pointer;
+}
+
+th{
+    width: 20%;
+} 
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}

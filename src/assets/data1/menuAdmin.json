@@ -1,0 +1,11 @@
+[
+    {
+    "nombre":"Estudiantes",
+    "redirect": "/administrador/lista-estudiantes"
+    },
+
+    {
+        "nombre":"Arrendadores",
+        "redirect": "/administrador/lista-arrendadores"
+    }
+]
