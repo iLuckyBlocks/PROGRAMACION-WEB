@@ -1,0 +1,96 @@
+[debug] [2022-09-26T23:05:17.170Z] ----------------------------------------------------------------------
+[debug] [2022-09-26T23:05:17.173Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Usuario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-09-26T23:05:17.174Z] CLI Version:   11.10.0
+[debug] [2022-09-26T23:05:17.174Z] Platform:      win32
+[debug] [2022-09-26T23:05:17.174Z] Node Version:  v16.17.0
+[debug] [2022-09-26T23:05:17.176Z] Time:          Mon Sep 26 2022 18:05:17 GMT-0500 (hora estándar de Perú)
+[debug] [2022-09-26T23:05:17.176Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-26T23:05:17.280Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-26T23:05:17.280Z] > authorizing via signed-in user (maskets8@gmail.com)
+[debug] [2022-09-26T23:05:17.280Z] [iam] checking project tp-arqui-app-web for permissions ["firebase.projects.get"]
+[debug] [2022-09-26T23:05:17.284Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions [none]
+[debug] [2022-09-26T23:05:17.284Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions x-goog-quota-user=projects/tp-arqui-app-web
+[debug] [2022-09-26T23:05:17.284Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-09-26T23:05:18.188Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions 200
+[debug] [2022-09-26T23:05:18.189Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-09-26T23:05:18.190Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web [none]
+[debug] [2022-09-26T23:05:19.255Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web 200
+[debug] [2022-09-26T23:05:19.256Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web {"projectId":"tp-arqui-app-web","projectNumber":"520316009576","displayName":"TpArquiAppWeb","name":"projects/tp-arqui-app-web","resources":{"hostingSite":"tp-arqui-app-web","realtimeDatabaseInstance":"tp-arqui-app-web-default-rtdb","storageBucket":"tp-arqui-app-web.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_5fe9c651-d67d-48f3-9190-d4bbffe7eaba"}
+[info] 
+[info] === Serving from 'F:\TrabajoArqui\PROGRAMACION-WEB'...
+[info] 
+[debug] [2022-09-26T23:05:19.261Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/tp-arqui-app-web/sites 
+[debug] [2022-09-26T23:05:20.276Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/tp-arqui-app-web/sites 200
+[debug] [2022-09-26T23:05:20.277Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/tp-arqui-app-web/sites {"sites":[{"name":"projects/tp-arqui-app-web/sites/tp-arqui-app-web","defaultUrl":"https://tp-arqui-app-web.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-09-26T23:05:20.278Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web/webApps/-/config [none]
+[debug] [2022-09-26T23:05:21.966Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web/webApps/-/config 200
+[debug] [2022-09-26T23:05:21.966Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web/webApps/-/config {"projectId":"tp-arqui-app-web","appId":"1:520316009576:web:51b0eb369c781df9318fdd","databaseURL":"https://tp-arqui-app-web-default-rtdb.firebaseio.com","storageBucket":"tp-arqui-app-web.appspot.com","locationId":"us-central","apiKey":"AIzaSyCNoUjt6JxM9KH7Zg5w30DwCfCMRq11k9k","authDomain":"tp-arqui-app-web.firebaseapp.com","messagingSenderId":"520316009576"}
+[info] i  hosting[WebProject]: Serving hosting files from: dist/web-project {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist/web-project\u001b[22m"}}
+[info] +  hosting[WebProject]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-09-26T23:08:36.321Z] ----------------------------------------------------------------------
+[debug] [2022-09-26T23:08:36.323Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Usuario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-09-26T23:08:36.324Z] CLI Version:   11.10.0
+[debug] [2022-09-26T23:08:36.324Z] Platform:      win32
+[debug] [2022-09-26T23:08:36.324Z] Node Version:  v16.17.0
+[debug] [2022-09-26T23:08:36.325Z] Time:          Mon Sep 26 2022 18:08:36 GMT-0500 (hora estándar de Perú)
+[debug] [2022-09-26T23:08:36.326Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-26T23:08:36.413Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-26T23:08:36.414Z] > authorizing via signed-in user (maskets8@gmail.com)
+[debug] [2022-09-26T23:08:36.414Z] [iam] checking project tp-arqui-app-web for permissions ["firebase.projects.get"]
+[debug] [2022-09-26T23:08:36.417Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions [none]
+[debug] [2022-09-26T23:08:36.417Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions x-goog-quota-user=projects/tp-arqui-app-web
+[debug] [2022-09-26T23:08:36.417Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-09-26T23:08:37.340Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions 200
+[debug] [2022-09-26T23:08:37.340Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-09-26T23:08:37.344Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web [none]
+[debug] [2022-09-26T23:08:38.385Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web 200
+[debug] [2022-09-26T23:08:38.386Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web {"projectId":"tp-arqui-app-web","projectNumber":"520316009576","displayName":"TpArquiAppWeb","name":"projects/tp-arqui-app-web","resources":{"hostingSite":"tp-arqui-app-web","realtimeDatabaseInstance":"tp-arqui-app-web-default-rtdb","storageBucket":"tp-arqui-app-web.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_5fe9c651-d67d-48f3-9190-d4bbffe7eaba"}
+[info] 
+[info] === Serving from 'F:\TrabajoArqui\PROGRAMACION-WEB'...
+[info] 
+[debug] [2022-09-26T23:08:38.395Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/tp-arqui-app-web/sites 
+[debug] [2022-09-26T23:08:39.449Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/tp-arqui-app-web/sites 200
+[debug] [2022-09-26T23:08:39.450Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/tp-arqui-app-web/sites {"sites":[{"name":"projects/tp-arqui-app-web/sites/tp-arqui-app-web","defaultUrl":"https://tp-arqui-app-web.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-09-26T23:08:39.451Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web/webApps/-/config [none]
+[debug] [2022-09-26T23:08:40.694Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web/webApps/-/config 200
+[debug] [2022-09-26T23:08:40.694Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web/webApps/-/config {"projectId":"tp-arqui-app-web","appId":"1:520316009576:web:51b0eb369c781df9318fdd","databaseURL":"https://tp-arqui-app-web-default-rtdb.firebaseio.com","storageBucket":"tp-arqui-app-web.appspot.com","locationId":"us-central","apiKey":"AIzaSyCNoUjt6JxM9KH7Zg5w30DwCfCMRq11k9k","authDomain":"tp-arqui-app-web.firebaseapp.com","messagingSenderId":"520316009576"}
+[warn] !  hosting: Port 5000 is not available. Trying another port... {"metadata":{"emulator":{"name":"hosting"},"message":"\u001b[33mhosting: \u001b[39mPort 5000 is not available. Trying another port..."}}
+[info] i  hosting[WebProject]: Serving hosting files from: dist/web-project {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist/web-project\u001b[22m"}}
+[info] +  hosting[WebProject]: Local server: http://localhost:5005 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5005\u001b[22m\u001b[24m"}}
+[debug] [2022-09-27T02:44:30.054Z] ----------------------------------------------------------------------
+[debug] [2022-09-27T02:44:30.065Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Usuario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-09-27T02:44:30.066Z] CLI Version:   11.10.0
+[debug] [2022-09-27T02:44:30.066Z] Platform:      win32
+[debug] [2022-09-27T02:44:30.067Z] Node Version:  v16.17.0
+[debug] [2022-09-27T02:44:30.169Z] Time:          Mon Sep 26 2022 21:44:30 GMT-0500 (hora estándar de Perú)
+[debug] [2022-09-27T02:44:30.169Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-27T02:44:30.425Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-27T02:44:30.426Z] > authorizing via signed-in user (maskets8@gmail.com)
+[debug] [2022-09-27T02:44:30.426Z] [iam] checking project tp-arqui-app-web for permissions ["firebase.projects.get"]
+[debug] [2022-09-27T02:44:30.444Z] > refreshing access token with scopes: []
+[debug] [2022-09-27T02:44:30.447Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-27T02:44:30.448Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-27T02:44:30.887Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-27T02:44:30.887Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-27T02:44:31.095Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions [none]
+[debug] [2022-09-27T02:44:31.095Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions x-goog-quota-user=projects/tp-arqui-app-web
+[debug] [2022-09-27T02:44:31.096Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-09-27T02:44:32.054Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions 200
+[debug] [2022-09-27T02:44:32.055Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tp-arqui-app-web:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-09-27T02:44:32.056Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web [none]
+[debug] [2022-09-27T02:44:32.447Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web 200
+[debug] [2022-09-27T02:44:32.447Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web {"projectId":"tp-arqui-app-web","projectNumber":"520316009576","displayName":"TpArquiAppWeb","name":"projects/tp-arqui-app-web","resources":{"hostingSite":"tp-arqui-app-web","realtimeDatabaseInstance":"tp-arqui-app-web-default-rtdb","storageBucket":"tp-arqui-app-web.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_5fe9c651-d67d-48f3-9190-d4bbffe7eaba"}
+[info] 
+[info] === Serving from 'F:\TrabajoArqui\PROGRAMACION-WEB'...
+[info] 
+[debug] [2022-09-27T02:44:32.453Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/tp-arqui-app-web/sites 
+[debug] [2022-09-27T02:44:33.535Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/tp-arqui-app-web/sites 200
+[debug] [2022-09-27T02:44:33.536Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/tp-arqui-app-web/sites {"sites":[{"name":"projects/tp-arqui-app-web/sites/tp-arqui-app-web","defaultUrl":"https://tp-arqui-app-web.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-09-27T02:44:33.536Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web/webApps/-/config [none]
+[debug] [2022-09-27T02:44:34.751Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web/webApps/-/config 200
+[debug] [2022-09-27T02:44:34.751Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tp-arqui-app-web/webApps/-/config {"projectId":"tp-arqui-app-web","appId":"1:520316009576:web:51b0eb369c781df9318fdd","databaseURL":"https://tp-arqui-app-web-default-rtdb.firebaseio.com","storageBucket":"tp-arqui-app-web.appspot.com","locationId":"us-central","apiKey":"AIzaSyCNoUjt6JxM9KH7Zg5w30DwCfCMRq11k9k","authDomain":"tp-arqui-app-web.firebaseapp.com","messagingSenderId":"520316009576"}
+[info] i  hosting[WebProject]: Serving hosting files from: dist/web-project {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist/web-project\u001b[22m"}}
+[info] +  hosting[WebProject]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}

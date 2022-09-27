@@ -10,6 +10,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginArrendamientoComponent } from './page/arrendamiento/login-arrendamiento/login-arrendamiento.component';
 import { CrearAlojamientoComponent } from './page/pagina/alojamientos/crear-alojamiento/crear-alojamiento.component';
 import { AllmoduleModule } from './page/allmodule/allmodule.module';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
 
 
 
@@ -28,7 +31,9 @@ import { AllmoduleModule } from './page/allmodule/allmodule.module';
     BrowserAnimationsModule,
     CommonModule,
     HttpClientModule,
-    AllmoduleModule
+    AllmoduleModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase())
 
   ],
   providers: [],

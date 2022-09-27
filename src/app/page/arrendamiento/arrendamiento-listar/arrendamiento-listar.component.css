@@ -538,7 +538,7 @@ footer{
 footer .footer-opciones{
     display: flex;
     text-align: center;
-    Justify-content: center;
+    justify-content: center;
     color: white;
 }
 footer h1{
